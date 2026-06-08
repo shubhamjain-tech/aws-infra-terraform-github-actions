@@ -3,25 +3,25 @@ module "ec2" {
   instances = {
   "dev-instance-1" = {
     ami_id        = "ami-0dee22c13ea7a9a67", 
-    instance_type = "t2.micro", 
+    instance_type = "t3.micro", 
     name          = "dev-instance-1", 
     subnet_id     = module.vpc.public_subnet_ids[0]
   },
   "dev-instance-2" = {
     ami_id        = "ami-0dee22c13ea7a9a67", 
-    instance_type = "t2.medium", 
+    instance_type = "t3.medium", 
     name          = "dev-instance-2", 
     subnet_id     = module.vpc.public_subnet_ids[1]
   },
   "dev-instance-3" = {
     ami_id        = "ami-0dee22c13ea7a9a67", 
-    instance_type = "t2.micro", 
+    instance_type = "t3.micro", 
     name          = "dev-instance-3", 
     subnet_id     = module.vpc.private_subnet_ids[0]
   },
   "dev-instance-4" = {
     ami_id        = "ami-0dee22c13ea7a9a67", 
-    instance_type = "t2.medium", 
+    instance_type = "t3.medium", 
     name          = "dev-instance-4", 
     subnet_id     = module.vpc.private_subnet_ids[1]
   }
