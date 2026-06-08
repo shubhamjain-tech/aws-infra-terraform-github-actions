@@ -23,10 +23,7 @@ module "s3" {
   source = "../../modules/s3"
 
   bucket_names = {
-    "bucket1" = { bucket_name = "prod-demo-buck-6721" },
-    "bucket2" = { bucket_name = "prod-demo-buck-1241" },
-    "bucket3" = { bucket_name = "prod-demo-buck-9021" },
-    "bucket4" = { bucket_name = "prod-demo-buck-294" }
+    "bucket1" = { bucket_name = "prod-app-data-848504403730" }
   }
 
   environment = "prod"
