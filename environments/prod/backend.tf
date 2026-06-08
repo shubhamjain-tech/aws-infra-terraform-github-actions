@@ -1,8 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "mybucket-backend-6721"
-    key            = "prod/terraform.tfstate"
-    region         = "ap-south-1"
-    encrypt        = true
+    bucket       = "aws-terraform-state-file-2026-848504403730"
+    key          = "prod/terraform.tfstate"
+    region       = "ap-south-1"
+    use_lockfile = true
+    encrypt      = true
   }
 }

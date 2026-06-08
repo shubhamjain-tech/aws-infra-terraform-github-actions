@@ -69,8 +69,7 @@ resource "aws_route" "default_public" {
 
 # Elastic IP for NAT Gateway
 resource "aws_eip" "nat" {
-  vpc = true
-  
+  domain = "vpc"
 }
 
 # Create NAT Gateway in the first public subnet
