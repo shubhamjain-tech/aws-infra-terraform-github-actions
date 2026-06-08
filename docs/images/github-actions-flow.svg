@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500" role="img" aria-label="GitHub Actions CI CD workflow">
+  <rect width="980" height="500" fill="#f8fafc"/>
+  <text x="40" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">GitHub Actions CI/CD Flow</text>
+  <text x="40" y="78" font-family="Arial, sans-serif" font-size="14" fill="#475569">Push to dev stays quiet, PR to main runs CI, merge to main runs CD apply</text>
+  <rect x="60" y="125" width="200" height="75" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <text x="93" y="155" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#0f172a">Local dev branch</text>
+  <text x="93" y="180" font-family="Arial, sans-serif" font-size="13" fill="#475569">Make Terraform changes</text>
+  <rect x="330" y="125" width="200" height="75" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <text x="372" y="155" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#0f172a">Push to dev</text>
+  <text x="370" y="180" font-family="Arial, sans-serif" font-size="13" fill="#475569">No workflow runs</text>
+  <rect x="600" y="125" width="240" height="75" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="632" y="155" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">Pull request to main</text>
+  <text x="632" y="180" font-family="Arial, sans-serif" font-size="13" fill="#1e40af">CI: init, fmt, validate, plan</text>
+  <rect x="600" y="285" width="240" height="88" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="652" y="318" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#166534">Merge to main</text>
+  <text x="632" y="343" font-family="Arial, sans-serif" font-size="13" fill="#166534">CD: init, fmt, validate,</text>
+  <text x="632" y="362" font-family="Arial, sans-serif" font-size="13" fill="#166534">plan, apply to prod</text>
+  <rect x="330" y="285" width="200" height="88" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="363" y="318" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#92400e">Manual action</text>
+  <text x="357" y="343" font-family="Arial, sans-serif" font-size="13" fill="#92400e">workflow_dispatch</text>
+  <text x="357" y="362" font-family="Arial, sans-serif" font-size="13" fill="#92400e">dev or prod deploy</text>
+  <line x1="260" y1="162" x2="330" y2="162" stroke="#334155" stroke-width="2"/>
+  <polygon points="330,162 318,156 318,168" fill="#334155"/>
+  <line x1="530" y1="162" x2="600" y2="162" stroke="#334155" stroke-width="2"/>
+  <polygon points="600,162 588,156 588,168" fill="#334155"/>
+  <line x1="720" y1="200" x2="720" y2="285" stroke="#334155" stroke-width="2"/>
+  <polygon points="720,285 714,273 726,273" fill="#334155"/>
+  <line x1="530" y1="329" x2="600" y2="329" stroke="#d97706" stroke-width="2" stroke-dasharray="6 5"/>
+  <polygon points="600,329 588,323 588,335" fill="#d97706"/>
+</svg>
